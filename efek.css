@@ -1,0 +1,73 @@
+*{
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Bell MT;
+	background-color: green;
+}
+nav{
+	font-size: 30px;
+	width: 100%;
+	margin: auto;
+	display: flex;
+	line-height: 80px;
+	position: sticky;
+	position: -webkit-sticky;
+	top:0;
+	background-color: transparent;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	float: right;
+	margin-left: 600px;
+}
+
+nav ul li{
+	float: left;
+}
+nav ul li a{
+	color: orange;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 10px 0px 10px;
+	text-decoration: none;
+	float: right;
+	position: right;
+}
+
+nav ul li a:hover{
+	text-decoration: underline;
+	color:red; 
+}
+
+table,tr,td{
+	background-color:#d2e603  ;
+	font-family: arial;
+	color: black;
+	border: 0px solid aqua;
+	padding: 0px;
+	border-collapse: collapse;
+}
+.h{
+	border: 8px dotted yellow;
+	padding: 20px;
+}
+h2{
+	color: black;
+	object-position: center;
+}
+
+/*buat info lain*/
+.lain table,tr,td{
+	border: 5px solid aqua;
+	padding: 10px;
+	border-collapse: collapse;
+	top: 100px;
+}
